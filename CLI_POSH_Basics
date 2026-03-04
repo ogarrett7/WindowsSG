@@ -80,5 +80,18 @@ tasklist	                                  Lists all currently running processes
 
 Basic PowerShell Commands:
 
+Get-Help	                                  Displays help information about PowerShell cmdlets.
+Update-Help	                                To update your Help Files
+      Note: Update-Help -force will force the update
+Get-Command	                                Lists all cmdlets, functions, workflows, aliases installed on your system.
+Get-ChildItem	                              Displays the files and directories in the PowerShell console.
+Get-Process	                                Retrieves the processes running on a local or remote computer.
+Get-Service	                                Gets the status of services on a local or remote machine.
+New-Item	                                  Creates a new item, such as a file or directory.
+Copy-Item	                                  Copies an item from one location to another.
+Remove-Item	                                Deletes files or directories.
 
+It is possible to switch to PowerShell from you CLI by simply typing the word "powershell" in your CLI. If you type "cmd" it will take you another logical layer deeper into another CLI shell. 
+Note: It is easy to get many layers deep if you continue to do this. To go back a layer to your previous shell, type the word "exit". If you type exit from your original shell you will close out your CLI. So be careful not to type exit too many times.
+Certain variables, functions, etc. that you create may only exist in that session. If you close they will delete from memory unless saved in your profile file, which will be covered in your PowerShell module.
 
