@@ -1,0 +1,13 @@
+###Table of Contents 
+####Focus: User & Group Management
+1: net commands
+2: PowerShell commands
+
+
+###1. net commands
+*Review net command 
+
+Effective user and group management is essential for ensuring secure access to resources, simplifying administrative tasks, and maintaining overall system integrity. 
+
+net.exe is a suite of commands that can be used in the CLI to manage users and groups. Note: These commands will also work in PowerShell although they are not inate POSH commandlets.
+
