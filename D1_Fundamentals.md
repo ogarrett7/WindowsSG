@@ -47,14 +47,8 @@ Open the command line and type powershell, or navigate to the PowerShell interfa
 |Task                  |          Example                  |
 |------------------------------------------:|-----------------------------------------------------------------------------|
 |To view all logs, type:                  | `Get-EventLog *`         (The asterisk is a wildcard and shows all logs.) |
-
-To view specific logs, type:
-Get-EventLog <log name>
-Example: `Get-EventLog Application`
-
-To clear a specific log, type:
-Clear-EventLog <log name>
-Example: `Clear-EventLog Application`
+|To view specific logs, type:             | Get-EventLog <log name>  Example: `Get-EventLog Application`  |
+|To clear a specific log, type:     |       Clear-EventLog <log name>    Example: `Clear-EventLog Application`  |
 
 Note: If you clear your logs and then use the get-eventlog cmdlet to grab those logs, you should get a red error message that states there are no logs - which is correct because you just deleted them.
 Event Viewer is the GUI used to view these logs. 
