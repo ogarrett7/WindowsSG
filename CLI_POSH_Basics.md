@@ -48,7 +48,7 @@ Example: (type) `get-help get-service -` (then press ctrl + spacebar)
   When typing commands you are able to type the first portion of the command and press the "tab" key to finish out the rest of the command
 Example: (start typing) `get-ser` (then press tab) you'll see POSH finishes `get-service` for you
 This helps with faster scripting and also with spelling errors. Sometimes we type fast and misspell things that the computer does not recognize. To save yourself trouble just tab complete.
-Note: CLI and POSH are not case-sensitive 
+> Note: CLI and POSH are not case-sensitive 
 
 
 ## Basic CLI Commands:
@@ -99,5 +99,5 @@ It is possible to switch to PowerShell from you CLI by simply typing the word "p
 Note: It is easy to get many layers deep if you continue to do this. To go back a layer to your previous shell, type the word "exit". If you type exit from your original shell you will close out your CLI. So be careful not to type exit too many times.
 Certain variables, functions, etc. that you create may only exist in that session. If you close they will delete from memory unless saved in your profile file, which will be covered in your PowerShell module.
 
-Important Note: Read your error messages!! Often times people see a red error message and wonder what they did wrong or just give up. Read the error message because often times it tells you exactly what is wrong and maybe even how to fix the issue.
+>**Important Note: Read your error messages!!** Often times people see a red error message and wonder what they did wrong or just give up. Read the error message because often times it tells you exactly what is wrong and maybe even how to fix the issue.
 
