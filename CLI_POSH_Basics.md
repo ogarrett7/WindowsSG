@@ -55,41 +55,41 @@ Note: CLI and POSH are not case-sensitive
 
 **Basic Navigation & File Management:**
 
-`whoami`                                   Displays the current logged-in user.
-`dir`	                                        Lists all files and folders in the current directory.
-`cd Documents`	                              Changes the current directory to “Documents”.
-    Note: You must be in Documents parent folder in order to cd into Documents or use the absolute path.
-`cd ..`	                                      Moves up one directory level.
-`mkdir Reports`	                              Creates a new folder named “Reports”.
-`rmdir Reports`	                              Removes a folder named “Reports”.
-`type nul > example.txt`                      Creates an empty file named "example.txt"
-`echo "This is a file." > example.txt`        Creates a file with the contents: This is a file.
-`notepad example2.txt`                        Creates a file named "example2.txt" that you can edit in notepad
-`del example.txt`	                            Deletes a file named “example.txt”.
-`copy file1.txt C:\Downloads`	                Copies a file to another location.
-`move file1.txt C:\Downloads`	                Moves a file to a different folder.
+|`whoami`                                   | Displays the current logged-in user.                               |
+|`dir`	                                    | Lists all files and folders in the current directory.              |
+|`cd Documents`	                            | Changes the current directory to “Documents”.                      
+                                              Note: You must be in Documents parent folder in order to cd into Documents or use the absolute path.      |
+|`cd ..`	                                  | Moves up one directory level.                                        |
+|`mkdir Reports`	                          | Creates a new folder named “Reports”.                              |
+|`rmdir Reports`	                          | Removes a folder named “Reports”.                                  |
+|`type nul > example.txt`                   | Creates an empty file named "example.txt"                          |
+|`echo "This is a file." > example.txt`     | Creates a file with the contents: This is a file.                    |
+|`notepad example2.txt`                     | Creates a file named "example2.txt" that you can edit in notepad      |
+|`del example.txt`	                        | Deletes a file named “example.txt”.                                  |
+|`copy file1.txt C:\Downloads`	            | Copies a file to another location.                                    |
+|`move file1.txt C:\Downloads`	            | Moves a file to a different folder.                                  |
 
 **System Information & Diagnostics:**
 
-`systeminfo	`                                Displays detailed configuration info about the system.
-`ipconfig	 `                                 Shows IP configuration for network interfaces.
-`ping google.com	   `                         Tests network connectivity to a remote server.
-`tasklist	 `                                 Lists all currently running processes.
+`systeminfo`                                Displays detailed configuration info about the system.
+`ipconfig	`                                 Shows IP configuration for network interfaces.
+`ping google.com`                         Tests network connectivity to a remote server.
+`tasklist`                                 Lists all currently running processes.
 
 
 
 ## Basic PowerShell Commands:
 
-`Get-Help	 `                                 Displays help information about PowerShell cmdlets.
-`Update-Help	`                                To update your Help Files
+`Get-Help`                                 Displays help information about PowerShell cmdlets.
+`Update-Help`                                To update your Help Files
       Note: Update-Help -force will force the update
-`Get-Command	 `                               Lists all cmdlets, functions, workflows, aliases installed on your system.
-`Get-ChildItem	`                              Displays the files and directories in the PowerShell console.
+`Get-Command`                               Lists all cmdlets, functions, workflows, aliases installed on your system.
+`Get-ChildItem`                              Displays the files and directories in the PowerShell console.
 `Get-Process`	                                Retrieves the processes running on a local or remote computer.
-`Get-Service	`                                Gets the status of services on a local or remote machine.
-`New-Item	 `                                 Creates a new item, such as a file or directory.
-`Copy-Item	`                                  Copies an item from one location to another.
-`Remove-Item	 `                              Deletes files or directories.
+`Get-Service`                                Gets the status of services on a local or remote machine.
+`New-Item`                                 Creates a new item, such as a file or directory.
+`Copy-Item`                                  Copies an item from one location to another.
+`Remove-Item`                              Deletes files or directories.
 
 It is possible to switch to PowerShell from you CLI by simply typing the word "powershell" in your CLI. If you type "cmd" it will take you another logical layer deeper into another CLI shell. 
 Note: It is easy to get many layers deep if you continue to do this. To go back a layer to your previous shell, type the word "exit". If you type exit from your original shell you will close out your CLI. So be careful not to type exit too many times.
