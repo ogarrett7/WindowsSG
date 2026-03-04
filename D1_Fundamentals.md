@@ -44,9 +44,9 @@ net commands
 
 Open the command line and type powershell, or navigate to the PowerShell interface by typing powershell in the search bar.
 
-To view all logs, type:
-`Get-EventLog *`
-(The asterisk is a wildcard and shows all logs.)
+|Task                  |          Example                  |
+|------------------------------------------:|-----------------------------------------------------------------------------|
+|To view all logs, type:                  | `Get-EventLog *`         (The asterisk is a wildcard and shows all logs.) |
 
 To view specific logs, type:
 Get-EventLog <log name>
