@@ -1,9 +1,9 @@
 ## Table of Contents 
-1: GUIs
+1. GUIs
 2. net commands (CLI)
-3: PowerShell commands
-4: eventlog commands
-5: scheduled tasks
+3. PowerShell commands
+4. eventlog commands
+5. scheduled tasks
 
 ### Focus: User & Group Management
 Effective user and group management is essential for ensuring secure access to resources, simplifying administrative tasks, and maintaining overall system integrity. 
