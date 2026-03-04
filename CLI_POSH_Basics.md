@@ -17,12 +17,12 @@ Help Commands are very "help"ful (lol)
 In all seriousness, the help commands are some of the most powerful tools to have in your toolbox!
 
 ### CLI:
-The help function is /?
+The help function is `/?`
 Example: `dir /?`
   This will give you a help page on the dir command
 Example: `reg /?`
-  There are many reg commands. If you happen to forget which one you need but can at least remember it starts with reg you can throw a /? on the end and you will see the options you have now.
-  From here you can continue to throw /? onto the end to stairstep your way to what you need
+  There are many reg commands. If you happen to forget which one you need but can at least remember it starts with reg you can throw a `/?` on the end and you will see the options you have now.
+  From here you can continue to throw `/?` onto the end to stairstep your way to what you need
 
 The examples portion is typically a lot of people's favorite area of the help pages because it gives you exact examples with descritions including the syntax and what the line of code is doing
 The exmaples will be listed at the bottom of the help pages.
@@ -30,7 +30,7 @@ Example: `reg query /?`
   Scroll to the bottom of the page to see the examples.
 
 ### PowerShell:
-The help function is get-help
+The help function is `get-help`
 Example: `get-help get-service`
   This will give you a help page on the get-service cmdlet Note: commands in PowerShell are called cmdlets (pronounced commandlets)
 The examples portion also exists in POSH. To see the examples you must add -examples on the end of your help command
@@ -56,7 +56,7 @@ Note: CLI and POSH are not case-sensitive
 **Basic Navigation & File Management:**
 
 | Command                                   | Description                                                        |
-|-------------------------------------------------------------------:|--------------------------------------------------------------------|
+|------------------------------------------:|--------------------------------------------------------------------|
 |`whoami`                                   | Displays the current logged-in user.                               |
 |`dir`	                                    | Lists all files and folders in the current directory.              |
 |`cd Documents`	                            | Changes the current directory to “Documents”.  Note: You must be in Documents parent folder in order to cd into Documents or use the absolute path.      |
