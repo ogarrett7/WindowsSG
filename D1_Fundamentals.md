@@ -1,5 +1,5 @@
-##Table of Contents 
-###Focus: User & Group Management
+## Table of Contents 
+### Focus: User & Group Management
 1: GUIs
 2. net commands (CLI)
 3: PowerShell commands
@@ -8,15 +8,15 @@
 
 Effective user and group management is essential for ensuring secure access to resources, simplifying administrative tasks, and maintaining overall system integrity. 
 
-##Management Methods (Possible ways to interact with users and groups)
+## Management Methods (Possible ways to interact with users and groups)
 
-###1. Graphical User Interface (GUI):
+### 1. Graphical User Interface (GUI):
   -Navigate to Control Panel
   -Navigate to User Accounts
   -Navigate to Manage User Accounts
 
 
-###2. Command Line Interface (CLI):
+### 2. Command Line Interface (CLI):
 
 net commands
 
@@ -39,7 +39,7 @@ Add domain global group:
 (These groups contain members only from their own domain but can be granted permissions to resources in any trusting domain.)
 net group groupname /add /domain
 
-###3. PowerShell:
+### 3. PowerShell:
 
 Create a local User:
 New-LocalUser –Name "username" -Password (ConvertTo-SecureString "Password12345!" -AsPlainText -Force)
@@ -47,7 +47,7 @@ New-LocalUser –Name "username" -Password (ConvertTo-SecureString "Password1234
 Create a local group:
 New-LocalGroup –Name "groupname"
 
-###4. Accessing Logs:
+### 4. Accessing Logs:
 
 Open the command line and type powershell, or navigate to the PowerShell interface by typing powershell in the search bar.
 
@@ -67,7 +67,7 @@ Note: If you clear your logs and then use the get-eventlog cmdlet to grab those 
 Event Viewer is the GUI used to view these logs. 
 If you open Event Viewer and navigate to the Windows Logs tab you should see the same logs. You are free to explore this GUI to see how it works compared to CLI/POSH.
 
-###5. Scheduled Tasks:
+### 5. Scheduled Tasks:
 
 Common schtasks Commands:
 
