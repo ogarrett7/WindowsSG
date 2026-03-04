@@ -11,35 +11,26 @@ Effective user and group management is essential for ensuring secure access to r
 ## Management Methods (Possible ways to interact with users and groups)
 
 ### 1. Graphical User Interface (GUI):
-  -Navigate to Control Panel
-  -Navigate to User Accounts
-  -Navigate to Manage User Accounts
+  - Navigate to Control Panel
+  - Navigate to User Accounts
+  - Navigate to Manage User Accounts
 
 
 ### 2. Command Line Interface (CLI):
 
+net.exe is a suite of commands that can be used in the CLI to manage users and groups. Note: These commands will also work in PowerShell although they are not inate POSH cmdlets.
 net commands
 
 |Task                  |          Example                  |
 |------------------------------------------:|-----------------------------------------------------------------------------|
-net.exe is a suite of commands that can be used in the CLI to manage users and groups. Note: These commands will also work in PowerShell although they are not inate POSH cmdlets.
+|Add a user                                 | net user username password /add                                  |
+|Add domain user                          | net user username password /add /domain                              |
+|Add a local group:                         | net localgroup groupname /add                            |
+|Add domain local group:                  | net localgroup groupname /add /domain                        |
+|Add domain global group:                  |  net group groupname /add /domain                              |
 
-Add a user:
-net user username password /add
-
-Add domain user:
-net user username password /add /domain
-
-Add a local group:
-net localgroup groupname /add
-
-Add domain local group:
-(These groups can contain members from any trusted domain, but are granted permissions only to resources in their own domain)
-net localgroup groupname /add /domain
-
-Add domain global group:
-(These groups contain members only from their own domain but can be granted permissions to resources in any trusting domain.)
-net group groupname /add /domain
+> Note: Domains Local Groups: These groups can contain members from any trusted domain, but are granted permissions only to resources in their own domain
+      Domain Global Groups: These groups contain members only from their own domain but can be granted permissions to resources in any trusting domain.
 
 ### 3. PowerShell:
 
