@@ -6,6 +6,12 @@ Start menu’s Run dialog: Open the Run window (by pressing Win + R), type cmd, 
 
 Another way is by typing “Command Prompt” or "cmd" into the Windows search bar, where it will appear as an option. 
 
+PowerShell can be opened the same way either through (pressing Win + R), type powershell, and press Enter.
+
+Or you could start typing "PowerShell" in the search bar and it will appear.
+
+Tip: It is best practice to open your PowerShell GUI as administrator because some commands will not run without escalated privileges.
+
 ##1. Help Commands
 Help Commands are very "help"ful (lol)
 In all seriousness, the help commands are some of the most powerful tools to have in your toolbox!
@@ -47,10 +53,32 @@ Note: CLI and POSH are not case-sensitive
 
 Basic CLI Commands:
 
+Basic Navigation & File Management:
 
+whoami	                                    Displays the current logged-in user.
+dir	                                        Lists all files and folders in the current directory.
+cd Documents	                              Changes the current directory to “Documents”.
+    Note: You must be in Documents parent folder in order to cd into Documents or use the absolute path.
+cd ..	                                      Moves up one directory level.
+mkdir Reports	                              Creates a new folder named “Reports”.
+rmdir Reports	                              Removes a folder named “Reports”.
+type nul > example.txt                      Creates an empty file named "example.txt"
+echo "This is a file." > example.txt        Creates a file with the contents: This is a file.
+notepad example2.txt                        Creates a file named "example2.txt" that you can edit in notepad
+del example.txt	                            Deletes a file named “example.txt”.
+copy file1.txt C:\Downloads	                Copies a file to another location.
+move file1.txt C:\Downloads	                Moves a file to a different folder.
+
+System Information & Diagnostics:
+
+systeminfo	                                Displays detailed configuration info about the system.
+ipconfig	                                  Shows IP configuration for network interfaces.
+ping google.com	                            Tests network connectivity to a remote server.
+tasklist	                                  Lists all currently running processes.
 
 
 
 Basic PowerShell Commands:
+
 
 
