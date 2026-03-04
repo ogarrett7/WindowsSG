@@ -59,8 +59,7 @@ Note: CLI and POSH are not case-sensitive
 |------------------------------------------:|--------------------------------------------------------------------|
 |`whoami`                                   | Displays the current logged-in user.                               |
 |`dir`	                                    | Lists all files and folders in the current directory.              |
-|`cd Documents`	                            | Changes the current directory to “Documents”.                      
-                                              Note: You must be in Documents parent folder in order to cd into Documents or use the absolute path.      |
+|`cd Documents`	                            | Changes the current directory to “Documents”.  Note: You must be in Documents parent folder in order to cd into Documents or use the absolute path.      |
 |`cd ..`	                                  | Moves up one directory level.                                        |
 |`mkdir Reports`	                          | Creates a new folder named “Reports”.                              |
 |`rmdir Reports`	                          | Removes a folder named “Reports”.                                  |
