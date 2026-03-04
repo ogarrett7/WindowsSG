@@ -29,7 +29,7 @@ The exmaples will be listed at the bottom of the help pages.
 Example: `reg query /?`
   Scroll to the bottom of the page to see the examples.
 
-### PowerShell
+### PowerShell:
 The help function is get-help
 Example: `get-help get-service`
   This will give you a help page on the get-service cmdlet Note: commands in PowerShell are called cmdlets (pronounced commandlets)
@@ -72,10 +72,12 @@ Note: CLI and POSH are not case-sensitive
 
 **System Information & Diagnostics:**
 
-`systeminfo`                                Displays detailed configuration info about the system.
-`ipconfig	`                                 Shows IP configuration for network interfaces.
-`ping google.com`                         Tests network connectivity to a remote server.
-`tasklist`                                 Lists all currently running processes.
+| Command                                   | Description                                                        |
+|------------------------------------------:|--------------------------------------------------------------------|
+|`systeminfo`                               | Displays detailed configuration info about the system.          |
+|`ipconfig	`                               | Shows IP configuration for network interfaces.                  |
+|`ping google.com`                          | Tests network connectivity to a remote server.              |
+|`tasklist`                                 | Lists all currently running processes.                    |
 
 
 
