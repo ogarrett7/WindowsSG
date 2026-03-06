@@ -69,6 +69,7 @@ This helps with faster scripting and also with spelling errors. Sometimes we typ
 |`del example.txt`	                        | Deletes a file named “example.txt”.                                  |
 |`copy file1.txt C:\Downloads`	            | Copies a file to another location.                                    |
 |`move file1.txt C:\Downloads`	            | Moves a file to a different folder.                                  |
+|`type`                                     | Displays the contents of a text file        |
 
 **System Information & Diagnostics:**
 
