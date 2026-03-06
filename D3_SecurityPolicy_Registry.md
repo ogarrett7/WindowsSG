@@ -1,9 +1,9 @@
-##Table of Contents 
+## Table of Contents 
 1. reg commands
 2. PowerShell cmdlets for registry
 3. navigate regedit.exe
 
-###1. reg commands
+### 1. reg commands
 
 Common Commands:
 
@@ -20,7 +20,7 @@ reg export and reg import:
 Backup and restore registry data from a file.
 
 
-###2. PowerShell cmdlets for registry
+### 2. PowerShell cmdlets for registry
 
 Common Cmdlets:
 
@@ -40,7 +40,7 @@ Remove-Item:
 Delete specified registry keys.
 Example: Remove-Item -Path C:\Path\To\Your\File.txt
 
-###3. Navigate regedit.exe
+### 3. Navigate regedit.exe
 
 
 
