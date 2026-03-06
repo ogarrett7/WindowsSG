@@ -10,7 +10,7 @@ SIDs are structured in a specific format that conveys meaningful information. A 
   -   Local or Domain Identifier: This segment specifies the security authority that issued the SID, indicating whether it belongs to a local or domain account.
 * Relative Identifier (RID): The RID identifies the specific type of account, whether it is a user account, group account, or other defined types.
 
-Ways to access SIDs
+## Ways to access SIDs
 
 CLI/PowerShell:
 
