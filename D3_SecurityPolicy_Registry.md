@@ -9,19 +9,12 @@
 
 Common Commands:
 
-
-
-reg query:
-Retrieve registry data from specified keys or values.
-
-reg add:
-Add a new registry key or value.
-
-reg delete:
-Delete a specified registry key or value.
-
-reg export and reg import:
-Backup and restore registry data from a file.
+|Command               |          Description                |
+|:------------------------------------------|:-----------------------------------------------------------------------------|
+|reg query:    |   Retrieve registry data from specified keys or values.      |
+|reg add:    |      Add a new registry key or value.      |
+|reg delete:    |    Delete a specified registry key or value.      |
+|reg export and reg import:    |    Backup and restore registry data from a file.      |
 
 
 ### 2. PowerShell cmdlets for registry
