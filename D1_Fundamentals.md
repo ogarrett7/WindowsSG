@@ -58,19 +58,11 @@ If you open Event Viewer and navigate to the Windows Logs tab you should see the
 
 Common schtasks Commands:
 
-`schtasks /?`
-Displays scheduled tasks and command usage.
-
-`schtasks /create`
-Creates a new task.
-Example:
-`schtasks /create /sc once /tn command /tr cmd.exe /st 08:00`
-(Schedules a one-time task to run cmd.exe at 08:00)
-
-`schtasks /delete`
-Deletes a task by name.
-Example:
-`schtasks /delete /tn command`
+|Task                  |        Description                 |  Example
+|------------------------------------------:|-----------------------------------------------------------------------------|
+|`schtasks /?`                  |  Displays scheduled tasks and command usage.                        |
+|`schtasks /create`              |   Creates a new task.                       | Example:      `schtasks /create /sc once /tn command /tr cmd.exe /st 08:00` (Schedules a one-time task to run cmd.exe at 08:00)     |
+|`schtasks /delete`            |  Deletes a task by name.                        |  Example:     `schtasks /delete /tn command`    |
 
 `schtasks /change`
 Changes the task that is run (does not change the task name).
