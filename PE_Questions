@@ -1,0 +1,39 @@
+PE Questions:
+
+Day 0
+1.What is the CLI command to get help? /?
+2. What is the POSH cmdlet to get help? get-help
+3. Which option for the POSH help command shows specific examples on how to use the command? -examples
+4. Which of the following will not list the contents of a directory? dir, ls, get-childitem, type
+5. Which command will display configuration info about the system? systeminfo
+6. Is it possible to switch to PowerShell from CLI? yes 
+7. How do I switch from CLI to PowerShell? type PowerShell
+8. True or False? Error messages sometimes tell us what is wrong and how to fix it? True
+9. Cmdlets in PowerShell follow what naming convention? verb-noun, noun-verb, object-string, string-object
+10. How can I edit the contents of a file in CLI? notepad, cd, chdir, move 
+
+
+Lesson 1 Fundamentals
+1.
+2.
+3.
+4.
+5.
+6.
+7.
+8.
+9.
+10.
+
+
+Lesson 2 Based Networks
+1.
+2.
+3.
+4.
+5.
+6.
+7.
+8.
+9.
+10.
