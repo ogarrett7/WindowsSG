@@ -22,7 +22,7 @@ net.exe is a suite of commands that can be used in the CLI to manage users and g
 net commands
 
 |Task                  |          Example                  |
-|:------------------------------------------:|:-----------------------------------------------:|
+|:------------------------------------------|:-----------------------------------------------|
 |Add a user                                 | `net user username password /add`                                  |
 |Add domain user                          | `net user username password /add /domain`                              |
 |Add a local group:                         | `net localgroup groupname /add`                            |
@@ -36,7 +36,7 @@ net commands
 ### 3. PowerShell:
 
 |Task                  |          Example                  |
-|:------------------------------------------|:-----------------------------------------------------------------------------:|
+|:------------------------------------------|:-----------------------------------------------------------------------------|
 |Create a local User:                       | New-LocalUser –Name "username" -Password (ConvertTo-SecureString "Password12345!" -AsPlainText -Force) |
 |Create a local group:  | New-LocalGroup –Name "groupname"          |
 
@@ -45,7 +45,7 @@ net commands
 Open the command line and type powershell, or navigate to the PowerShell interface by typing powershell in the search bar.
 
 |Task                  |          Example                  |
-|:------------------------------------------|:-----------------------------------------------------------------------------:|
+|:------------------------------------------|:-----------------------------------------------------------------------------|
 |To view all logs, type:                  | `Get-EventLog *`         (The asterisk is a wildcard and shows all logs.) |
 |To view specific logs, type:             | Get-EventLog <log name>  Example: `Get-EventLog Application`  |
 |To clear a specific log, type:     |       Clear-EventLog <log name>    Example: `Clear-EventLog Application`  |
@@ -59,7 +59,7 @@ If you open Event Viewer and navigate to the Windows Logs tab you should see the
 Common schtasks Commands:
 
 |Task                  |        Description                 |            Example                 |
-|:------------------------------------------:|:--------------------------------:|:---------------------------------------------:|
+|:------------------------------------------|:--------------------------------|:---------------------------------------------|
 |`schtasks /?`                  |  Displays scheduled tasks and command usage.                        |
 |`schtasks /create`              |   Creates a new task.                       | Example:      `schtasks /create /sc once /tn command /tr cmd.exe /st 08:00` (Schedules a one-time task to run cmd.exe at 08:00)     |
 |`schtasks /delete`            |  Deletes a task by name.                        |  Example:     `schtasks /delete /tn command`    |
