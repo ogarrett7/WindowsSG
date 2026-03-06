@@ -36,7 +36,7 @@ net commands
 ### 3. PowerShell:
 
 |Task                  |          Example                  |
-|:------------------------------------------:|:-----------------------------------------------------------------------------:|
+|:------------------------------------------|:-----------------------------------------------------------------------------:|
 |Create a local User:                       | New-LocalUser –Name "username" -Password (ConvertTo-SecureString "Password12345!" -AsPlainText -Force) |
 |Create a local group:  | New-LocalGroup –Name "groupname"          |
 
@@ -45,7 +45,7 @@ net commands
 Open the command line and type powershell, or navigate to the PowerShell interface by typing powershell in the search bar.
 
 |Task                  |          Example                  |
-|:------------------------------------------:|:-----------------------------------------------------------------------------:|
+|:------------------------------------------|:-----------------------------------------------------------------------------:|
 |To view all logs, type:                  | `Get-EventLog *`         (The asterisk is a wildcard and shows all logs.) |
 |To view specific logs, type:             | Get-EventLog <log name>  Example: `Get-EventLog Application`  |
 |To clear a specific log, type:     |       Clear-EventLog <log name>    Example: `Clear-EventLog Application`  |
