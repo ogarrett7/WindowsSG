@@ -1,7 +1,7 @@
 PE Questions:
 
 Day 0
-1.What is the CLI command to get help? /?
+1. What is the CLI command to get help? /?
 2. What is the POSH cmdlet to get help? get-help
 3. Which option for the POSH help command shows specific examples on how to use the command? -examples
 4. Which of the following will not list the contents of a directory? dir, ls, get-childitem, type
