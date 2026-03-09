@@ -9,13 +9,13 @@ Day 0
 6. Is it possible to switch to PowerShell from CLI? yes 
 7. How do I switch from CLI to PowerShell? type PowerShell
 8. True or False? Error messages sometimes tell us what is wrong and how to fix it? True
-9. Cmdlets in PowerShell follow what naming convention? verb-noun, noun-verb, object-string, string-object
-10. How can I edit the contents of a file in CLI? notepad, cd, chdir, move 
+9. Cmdlets in PowerShell follow what naming convention? **verb-noun**, noun-verb, object-string, string-object
+10. How can I edit the contents of a file in CLI? **notepad**, cd, chdir, move 
 11. What is the option for the reg command that queries for specific registy key values? Hint: use the help command. /v
-12. You created a file called examplefile.txt. How would you edit the file using notepad from the CLI?
-13.
-14.
-15.
+12. You created a file called examplefile.txt. How would you edit the file using notepad from the CLI? notepad examplefile.txt
+13. Which command can I use to see the OS configuration of my computer? systeminfo
+14. What happens to the variables I created in PowerShell if I close my session? **they no longer exist**, they are saved so I can use in my next session, PowerShell prompts me to save them, none of they above
+15. Which command will show me all of my currently running processes?
 
 Lesson 1 Fundamentals
 1. What does GUI actually stand for? Graphical User Interface
