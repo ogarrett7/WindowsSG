@@ -33,7 +33,7 @@ Lesson 1 Fundamentals
 13. Create a scheduled task named Potato that runs notepad.exe once at 2200. Show instructor for credit. Instructor Flag: Potato
 14. What command would I use to show specific examples of how to create a scheduled task? schtasks /create /?
 15. What is the cmdlet to create a new local group? new-localgroup
-
+ 
 Lesson 2 Based Networks
 1.
 2.
