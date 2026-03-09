@@ -11,7 +11,11 @@ Day 0
 8. True or False? Error messages sometimes tell us what is wrong and how to fix it? True
 9. Cmdlets in PowerShell follow what naming convention? verb-noun, noun-verb, object-string, string-object
 10. How can I edit the contents of a file in CLI? notepad, cd, chdir, move 
-
+11.
+12.
+13.
+14.
+15.
 
 Lesson 1 Fundamentals
 1. What does GUI actually stand for? Graphical User Interface
@@ -24,7 +28,11 @@ Lesson 1 Fundamentals
 8. What option is used to tell a scheduled task how often to run? /sc
 9. What happens if I clear my eventlogs and then run the command get-eventlog *? error, error message, an error
 10. True or False. net commands can be used in CLI and POSH? True
-
+11.
+12.
+13.
+14.
+15.
 
 Lesson 2 Based Networks
 1.
@@ -37,3 +45,111 @@ Lesson 2 Based Networks
 8.
 9.
 10.
+11.
+12.
+13.
+14.
+15.
+
+Lesson 3 Security Policy & Registry
+1.
+2.
+3.
+4.
+5.
+6.
+7.
+8.
+9.
+10.
+11.
+12.
+13.
+14.
+15.
+
+Lesson 4 Logon Process
+1.
+2.
+3.
+4.
+5.
+6.
+7.
+8.
+9.
+10.
+11.
+12.
+13.
+14.
+15.
+
+Lesson 5 Networking Protocols
+1.
+2.
+3.
+4.
+5.
+6.
+7.
+8.
+9.
+10.
+11.
+12.
+13.
+14.
+15.
+
+Lesson 6 Active Directory
+1.
+2.
+3.
+4.
+5.
+6.
+7.
+8.
+9.
+10.
+11.
+12.
+13.
+14.
+15.
+
+Lesson 7 Baseline
+1.
+2.
+3.
+4.
+5.
+6.
+7.
+8.
+9.
+10.
+11.
+12.
+13.
+14.
+15.
+
+Lesson 8 Persistence
+1.
+2.
+3.
+4.
+5.
+6.
+7.
+8.
+9.
+10.
+11.
+12.
+13.
+14.
+15.
+
