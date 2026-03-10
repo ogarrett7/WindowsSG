@@ -24,7 +24,7 @@ Two Types of Names in LDAP:
   *   Unique identifier at each directory level.
   *   Does not include full directory structure.
   *   Example: OU=S6
- 
+  
 * LDAP Session Connection
   *   Session Connection – User connects to the server via an LDAP port
   *     *   Port 389: Unencrypted LDAP
