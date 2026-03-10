@@ -11,13 +11,8 @@ NetBIOS (Network Basic Input/Output System) is an Application Programming Interf
 NetBIOS uses specific ports for its operations:
 
 * **Name Service (TCP Port 137):**
-The NetBIOS Name Service (NBNS) is responsible for resolving NetBIOS names to IP addresses. This service allows devices to find each other on the network by their NetBIOS name (e.g., MYCOMPUTER), translating it into an IP address that can be used to establish a connection.
-
 * **Session Service (TCP Port 139):**
-The NetBIOS Session Service enables reliable, connection-oriented communication between devices. It manages connections for applications that need to transfer data in a guaranteed manner, such as when accessing shared files or printers over the network.
-
 * **Datagram Service (UDP Port 138):**
-The NetBIOS Datagram Service is used for connectionless communication, where messages (or datagrams) are broadcast to all devices on the network. This is useful for tasks such as service discovery or network announcements (e.g., broadcasting a message to all devices that a new service is available).
 
 ### 2. nbtstat command
 
