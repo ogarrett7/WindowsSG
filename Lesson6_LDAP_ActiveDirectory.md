@@ -47,17 +47,24 @@ To open Server Manager - navigate to your AD deployment and connect to the DC (D
 > If you happen to close both Server Manager and cmd you should stop closing things and think about a reclass. Just kidding! It happens. Press ctrl+alt+delete to get your task manager, then select "run new task" then type cmd.exe or servermanager.exe depending on what you need.
 
 Inside Server Manager: 
+In the top right corner you will see "Tools" - Here is where you can find a lot of the GUIs we previously discussed, along with PowerShell, and a few extras.
+For this practical we want to use "Active Directory Users and Computers"
+> Make sure you go to View and turn on Advanced Features to ensure you can see everything.
 
+We are going to focus on Users - go to this folder.
+Double click a user you want to open. "cvte"
+Here you can see a lot of information about this specific user. One portion we talked about earlier was Distinguished Names. To find this, make sure you are in the Attribute Editor tab and scroll down a little bit. 
 
+Creating a new user.
+You can do this by right-clicking in the white space next to the existing users, click new, then click user.
+Here is where you can create a user account with a logon name so if you want to connect to your Windows 11 client that is attached to this AD deployment you can. (You can still log in as cvte too, just switch user if needed)
 
 ### 3. Commands 
 
+There are commands used to navigate/edit objects in Active Directory. Note these will only work in your AD deployment. 
 
-Active Directory Command-Line Tools:
+CLI Directory Service Commands
 
-Essential AD Commands
-
-Directory Service Commands
 Dsadd – Adds objects to the directory
 Dsquery – Queries Active Directory based on criteria
 Dsmod – Modifies existing directory objects
@@ -70,11 +77,8 @@ Net user – Adds, modifies, or displays user accounts
 Pro Tip
 Use help or / ? to view command syntax and options efficiently.
 
-Active Directory PowerShell Commands:
+Active Directory PowerShell User & Group Management Commands:
 
-Essential PowerShell AD Commands
-
- User & Group Management
 Add-ADGroupMember – Adds members to an AD group
 Enable/Disable-ADAccount – Enables or disables an AD account
 Get-ADUser – Retrieves one or more AD users
@@ -86,8 +90,3 @@ Get-ADDomain – Retrieves AD domain details
 Get-ADDomainController – Retrieves AD domain controllers
 Get-ADForest – Retrieves the AD forest
 Get-ADOrganizationalUnit – Retrieves one or more AD OUs
-
-#### CLI 
-
-
-#### PowerShell
