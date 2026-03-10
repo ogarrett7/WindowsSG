@@ -79,7 +79,7 @@ Network Commands
 |:------------------------------------------|:-----------------------------------------------------------------------------|
 |`Net computer` | Adds or removes a computer from a domain|
 |`Net group` | Manages global groups in a domain|
-`Net user` | Adds, modifies, or displays user accounts|
+|`Net user` | Adds, modifies, or displays user accounts|
 
 
 Active Directory PowerShell User & Group Management Commands:
