@@ -47,7 +47,8 @@ Here’s a breakdown of some essential commands available through Net.exe and th
 ### netstat
 Usage: used for network diagnostics and troubleshooting. It provides information about active network connections, open ports, and listening services on the system. It's a useful tool for analyzing network traffic and detecting any unusual activity.
 Analyze network traffic for potential issues.
-####Syntax:
+
+#### Syntax:
 * netstat — Displays active connections, ports, and other network statistics.
 * netstat -a — Shows all active connections and listening ports.
 * netstat -n — Displays network addresses in numeric form (IP address and port number).
