@@ -72,4 +72,5 @@ Inside the **Network and Sharing Center** you can select **File and Printer Shar
 * Network Discovery enables your computer to find other devicdes and computers on a network, and allows your computer to be visible to them.
 
 * Manage Network Connections: From the Network and Sharing Center, users can view and configure wired (Ethernet) and wireless (Wi-Fi) network connections, ensuring seamless access to resources.
- 
+
+> There are a lot more settings that can be manipulated/changed/viewed in the control panel. These are just a few that we cover in this module.
