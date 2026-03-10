@@ -34,38 +34,14 @@ Here’s a breakdown of some essential commands available through Net.exe and th
 |Command               |          Description                | Other Examples
 |:------------------------------------------|:---------------------------------|:----------------------------|
 |`net /?`   |  Displays the help page for the Net.exe command, listing all available commands and their syntax.  |   |
-|`net user`  | Manages user accounts on the local machine or a domain. Administrators can add, delete, modify, or display user account information. | Add a new user: net user username password /add  net user JohnDoe P@ssw0rd /add (Creates a new user "JohnDoe" with password "P@ssw0rd") |
-|   |    |   Delete a user: net user username /delete  net user JohnDoe /delete (Removes the user "JohnDoe") |
-Display all users:
-net user
-Example:
-net user (Lists all user accounts on the machine)
-3. net group
-Usage: Manages local groups and their members. Allows adding or removing users from groups and viewing group membership.
-Example:
-Add a user to a group:
-net localgroup groupname username /add
-Example:
-net localgroup administrators JohnDoe /add (Adds "JohnDoe" to the "Administrators" group)
-Remove a user from a group:
-net localgroup groupname username /delete
-Example:
-net localgroup administrators JohnDoe /delete (Removes "JohnDoe" from the "Administrators" group)
-4. net share
-Usage: Manages shared network resources such as folders, printers, and devices. Displays shared resources or configures new shares.
-Examples:
-Create a shared folder:
-net share sharename=path
-Example:
-net share Documents=C:\Users\JohnDoe\Documents (Shares the "Documents" folder)
-List all shared resources:
-net share
-Example:
-net share (Displays all shared resources on the local machine)
-Remove a shared folder:
-net share sharename /delete
-Example:
-net share Documents /delete (Removes the shared "Documents" folder)
+|`net user`  | Manages user accounts on the local machine or a domain. Administrators can add, delete, modify, or display user account information. | Add a new user: `net user username password /add`  `net user JohnDoe P@ssw0rd /add` (Creates a new user "JohnDoe" with password "P@ssw0rd") |
+|`net user`   |    |   Delete a user: `net user username /delete  net user JohnDoe /delete` (Removes the user "JohnDoe") |
+|`net user` |     |   Display all users: ` net user` (Lists all user accounts on the machine)  |
+|`net localgroup` | Manages local groups and their members. Allows adding or removing users from groups and viewing group membership.  | Add a user to a group: `net localgroup groupname username /add` `net localgroup administrators JohnDoe /add` (Adds "JohnDoe" to the "Administrators" group)  |
+|`net localgroup` |   |  Remove a user from a group: `net localgroup groupname username /delete` `net localgroup administrators JohnDoe /delete` (Removes "JohnDoe" from the "Administrators" group) |
+|`net share` | Manages shared network resources such as folders, printers, and devices. Displays shared resources or configures new shares. |Create a shared folder: `net share sharename=path` `net share Documents=C:\Users\JohnDoe\Documents` (Shares the "Documents" folder) |
+|`net share` |   | List all shared resources: `net share` |
+|`net share` |   | Remove a shared folder: `net share sharename /delete`  `net share Documents /delete` (Removes the shared "Documents" folder) |
 5. net start / net stop
 Usage: Starts or stops services on the local machine. This is useful for managing background services like networking, file sharing, or system processes.
 Examples:
