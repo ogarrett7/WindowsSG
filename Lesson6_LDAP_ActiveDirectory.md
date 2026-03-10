@@ -95,6 +95,8 @@ Active Directory PowerShell User & Group Management Commands:
 
 Computer & Domain Management
 
+|Command               |          Description                |
+|:------------------------------------------|:-----------------------------------------------------------------------------|
 |`Get-ADComputer` | Retrieves one or more AD computers|
 |`Get-ADDomain` | Retrieves AD domain details|
 |`Get-ADDomainController` | Retrieves AD domain controllers|
