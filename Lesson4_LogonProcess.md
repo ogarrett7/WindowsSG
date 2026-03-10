@@ -39,10 +39,10 @@ Inside this GUI you can start services, stop them, change the startup type, see 
 
 Some example commands we can use are 
 
-`net-start` 
-`net-stop` 
-`sc-start`
-`sc-stop`
+- `net-start` 
+- `net-stop` 
+- `sc-start`
+- `sc-stop`
 
 > Note: If using sc in PowerShell you must use sc.exe.
 
