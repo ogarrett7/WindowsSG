@@ -18,3 +18,14 @@ Windows Services are specialized applications designed to run in the background 
   * Start menu’s Run dialog: Open the Run window (by pressing Win + R), type cmd, and press Enter.
   * Or you could start typing "PowerShell" in the search bar and it will appear.
 > Tip: It is best practice to open your PowerShell GUI as administrator because some commands will not run without escalated privileges.
+
+### Service Management Console Overview
+Once the Services window is open, you’ll see a list of all services running on the system. This window typically displays the following information for each service: 
+- Name: The name of the service (e.g., Windows Update, Print Spooler).
+- Description: A brief description of what the service does.
+- Status: Whether the service is currently running, stopped, or paused.
+- Startup Type: The configuration of the service’s startup behavior. This can be set to:
+ - Automatic: Starts when the system boots.
+ - Manual: Starts only when specifically requested.
+ - Disabled: The service will not start.
+- Log On As: The account under which the service is running (e.g., Local System, Network Service, or Local Service).
