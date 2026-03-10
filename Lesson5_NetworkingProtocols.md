@@ -40,20 +40,8 @@ Here’s a breakdown of some essential commands available through Net.exe and th
 |`net start` | Starts services on the local machine. This is useful for managing background services like networking, file sharing, or system processes.| `net start spooler` (Starts the Print Spooler service)  |
 |`net stop` |  Stops services on the local machine. This is useful for managing background services like networking, file sharing, or system processes. | `net stop spooler` (Stops the Print Spooler service)  |
 |`net use`  | Connects to or disconnects from a shared resource on the network. It can also display information about currently mapped network drives and connections. |<ul><li>`net use Z: \\Server01\Documents` (Maps the shared folder "Documents" on "Server01" to the Z: drive) </li><li>Disconnect a network drive: `net use Z: /delete` (Disconnects the Z: network drive) </li><li>Display all mapped network drives: `net use` (Lists all currently mapped network drives and connections)</li></ul> |
-7. net session
-Usage: Displays information about the sessions that are currently open on the machine. This can be useful for monitoring active connections and troubleshooting network issues.
-Examples:
-View active sessions:
-net session
-Example:
-net session (Lists all active network sessions on the local machine)
-8. net time
-Usage: Synchronizes the system time with a network time server, ensuring that the machine's clock is accurate and synchronized with a trusted source.
-Examples:
-Synchronize time with a time server:
-net time \\time.server /set
-Example:
-net time \\time.windows.com /set (Synchronizes the local computer's time with "time.windows.com")
+|`net session` | Displays information about the sessions that are currently open on the machine. This can be useful for monitoring active connections and troubleshooting network issues. | View active sessions: `net session` (Lists all active network sessions on the local machine) |
+|`net time` | Synchronizes the system time with a network time server, ensuring that the machine's clock is accurate and synchronized with a trusted source.  | Synchronize time with a time server: `net time \\time.windows.com /set` (Synchronizes the local computer's time with "time.windows.com")
 9. net file
 Usage: Manages open files on the network, including displaying a list of files currently being accessed and the ability to close them.
 Examples:
