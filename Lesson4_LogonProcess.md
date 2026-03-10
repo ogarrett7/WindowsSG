@@ -51,7 +51,7 @@ Some example commands we can use are
 First, to see the services, type `get-service` 
 This will show you the service name, display name, and status 
 
-If you want to see any other categories for the services start typing `get-service | where` then press ctrl + space an d you will see the other categories that posh doesn't show you by default. 
+If you want to see any other categories for the services start typing `get-service | where` then press ctrl + space and you will see the other categories that posh doesn't show you by default. 
 
 Notice with the `get-service` command, the startup type is actually called the starttype - this is important to note when trying to change this value because posh does not recognize startuptype as an option.
 
