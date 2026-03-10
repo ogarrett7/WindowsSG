@@ -17,7 +17,7 @@ Each entry in the DIT is uniquely identified by a Distinguished Name (DN), which
 Two Types of Names in LDAP:
 
 * Distinguished Name (DN)
- *  Full path of an object within the LDAP directory.
+*  Full path of an object within the LDAP directory.
  *  Includes Relative Distinguished Name (RDN) + Directory Location.
  *  Example: CN=Peter Parker, OU=S6, DC=army, DC=com
 * Relative Distinguished Name (RDN)
