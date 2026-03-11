@@ -6,6 +6,7 @@
 5. [scheduled tasks](#5-scheduled-tasks)
 
 ### Focus: User & Group Management
+
 Effective user and group management is essential for ensuring secure access to resources, simplifying administrative tasks, and maintaining overall system integrity. 
 
 ## Management Methods (Possible ways to interact with users and groups)
@@ -29,7 +30,7 @@ net commands
 |Add domain local group:                  | `net localgroup groupname /add /domain`                        |
 |Add domain global group:                  |  `net group groupname /add /domain`                              |
 
-> Note:
+> [!NOTE]
 > - Domains Local Groups: These groups can contain members from any trusted domain, but are granted permissions only to resources in their own domain
 > - Domain Global Groups: These groups contain members only from their own domain but can be granted permissions to resources in any trusting domain.
 
@@ -50,7 +51,9 @@ Open the command line and type powershell, or navigate to the PowerShell interfa
 |To view specific logs, type:             | `Get-EventLog <log name>` | `Get-EventLog Application`  |
 |To clear a specific log, type:     |       `Clear-EventLog <log name>` |  `Clear-EventLog Application`  |
 
-> Note: If you clear your logs and then use the get-eventlog cmdlet to grab those logs, you should get a red error message that states there are no logs - which is correct because you just deleted them.
+> [!NOTE] 
+>
+> If you clear your logs and then use the get-eventlog cmdlet to grab those logs, you should get a red error message that states there are no logs - which is correct because you just deleted them.
 Event Viewer is the GUI used to view these logs. 
 If you open Event Viewer and navigate to the Windows Logs tab you should see the same logs. You are free to explore this GUI to see how it works compared to CLI/POSH.
 
@@ -66,7 +69,6 @@ Common schtasks Commands:
 |`schtasks /change`          |  Changes the task that is run (does not change the task name).   |  Example:  `schtasks /change /tn Notepad /tr C:\Windows\System32\calc.exe` (Changes the scheduled task to run calc.exe instead of Notepad)  |
 |`schtasks /query`   |    Displays current scheduled tasks.   |  Example:  `schtasks /query /tn Notepad /v /fo list`  (Displays detailed information about the Notepad task)    |
 
-> Task Scheduler is the GUI used to view these tasks
-The current tasks are shown in the middle pane. To the right you can see options to create, run, disable etc. other tasks. You are free to explore this GUI to see how it works compared to CLI/POSH.
-
-
+> [!TIP]
+>
+> Task Scheduler is the GUI used to view these tasks. The current tasks are shown in the middle pane. To the right you can see options to create, run, disable etc. other tasks. You are free to explore this GUI to see how it works compared to CLI/POSH.
