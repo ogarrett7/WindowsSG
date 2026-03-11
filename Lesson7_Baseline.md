@@ -71,7 +71,7 @@ Another way is to hash the files and create an if statement to compare them. You
 
 example:
 
-$FileHash01 = (Get-FileHash -Path "C:\Documents\Baseline01.xml").Hash
+$FileHash01 = (Get-FileHash -Path "C:\Users\cvte1\Documents\Baseline01.xml").Hash
 $ExpectedHash = "Your expected hash"
 
 if ($FileHash01 -eq $ExpectedHash) {
