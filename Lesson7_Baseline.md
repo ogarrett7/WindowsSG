@@ -8,14 +8,14 @@
 Survey commands are commonly used by system administrators, incident responders, and forensic investigators to gather important system information during an investigation or while troubleshooting a system. These commands help to quickly assess the state of the system, identify running processes, network activity, disk usage, system information, and other critical data. Below are some of the most frequently used survey commands in Command Prompt (CMD) and PowerShell.
 
 System Information
-|:------------------------------------------|:----------------------------------------|:-------------------------------------|
 | Command	| Purpose	|   Example Usage  |
+|:------------------------------------------|:----------------------------------------|:-------------------------------------|
 |systeminfo Displays detailed system information	  | systeminfo |
 |hostname |	Shows the computer's hostname  |	hostname |
 
 Process Information
-|:------------------------------------------|:-----------------------------------------|:------------------------------------|
 | Command	| Purpose	|   Example Usage  |
+|:------------------------------------------|:-----------------------------------------|:------------------------------------|
 |tasklist	| Lists all running processes  |	tasklist |
 |Get-Process  | Retrieves all running processes in PowerShell |	Get-Process |
 
