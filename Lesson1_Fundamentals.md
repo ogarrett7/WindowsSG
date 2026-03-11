@@ -1,9 +1,9 @@
 ## Table of Contents 
-1. GUIs
-2. net commands (CLI)
-3. PowerShell commands
-4. eventlog commands
-5. scheduled tasks
+1. [GUIs](#1-graphical-user-interface-gui)
+2. [net commands (CLI)](#2-command-line-interface-cli)
+3. [PowerShell commands](#3-powershell)
+4. [eventlog commands](#4-accessing-logs)
+5. [scheduled tasks](#5-scheduled-tasks)
 
 ### Focus: User & Group Management
 Effective user and group management is essential for ensuring secure access to resources, simplifying administrative tasks, and maintaining overall system integrity. 
@@ -38,7 +38,7 @@ net commands
 |Task                  |          Example                  |
 |:------------------------------------------|:-----------------------------------------------------------------------------|
 |Create a local User:                       | New-LocalUser –Name "username" -Password (ConvertTo-SecureString "Password12345!" -AsPlainText -Force) |
-|Create a local group:  | New-LocalGroup –Name "groupname"          |
+|Create a local group:  | New-LocalGroup –Name "groupname"         |
 
 ### 4. Accessing Logs:
 
