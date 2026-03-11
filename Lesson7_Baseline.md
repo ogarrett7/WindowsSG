@@ -22,7 +22,7 @@ Survey commands are commonly used by system administrators, incident responders,
 #### Network Information	
 | Command	| Purpose	|   Example Usage  |
 |:------------------------------------------|:------------------------------------|:-----------------------------------------|
-|netstat	Shows active network connections and ports |	netstat -ano |
+|netstat |	Shows active network connections and ports |	netstat -ano |
 |ipconfig	| Displays network configuration information |	ipconfig |
 |Get-NetTCPConnection	| Lists active TCP/IP connections |	Get-NetTCPConnection |
 
