@@ -10,8 +10,8 @@ Survey commands are commonly used by system administrators, incident responders,
 System Information
 |:------------------------------------------|:----------------------------------------|:-------------------------------------|
 | Command	| Purpose	|   Example Usage  |
-systeminfo Displays detailed system information	  | systeminfo |
-hostname |	Shows the computer's hostname  |	hostname |
+|systeminfo Displays detailed system information	  | systeminfo |
+|hostname |	Shows the computer's hostname  |	hostname |
 
 Process Information
 |:------------------------------------------|:-----------------------------------------|:------------------------------------|
