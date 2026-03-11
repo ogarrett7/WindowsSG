@@ -80,3 +80,5 @@ write-output "The file hashes match" }
 else 
 { 
 write-output "The file hashes do not match" }
+
+> Note: Might need to run the echo $FileHash01 first to get the input for the $ExpectedHash
